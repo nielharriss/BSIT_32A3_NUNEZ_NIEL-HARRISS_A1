@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Website</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="balatrocard.png" alt="Logo" class="logo">
+        <h1>NIEL HARRISS J. NUÑEZ</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+<main>
+    <section id="home" class="container my-5">
+        <h2>Welcome!</h2>
+        <p>Hi, I'm Niel and I am an Irregular - 3rd Year College Student. My academic interests include programming and learning about it.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        
+        
+        <h3>Education</h3>
+        <ul>
+            <li>LYCEUM OF ALABANG - Current Grade: 3RD YEAR</li>
+        </ul>
+
+        <h3>School Activities</h3>
+        <ul>
+            <li>I dont really have much school activities going for me, since I'm an irregular student I dont have much time in taking extracurricular activies, clubs or sports. I just go to school everytime, may even be late. Then go home as soon as possible.</li>
+            
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Critical Thinking</li>
+            <li>Problem Solving</li>
+            <li>Adaptability</li>
+            <li>Resilient</li>
+            <li>Expertise:</li>
+            <ul>
+                Programming and Back-End Development
+            </ul>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+</main>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>© 2025 Niel. All Rights Reserved.</p>
+        <p>
+            <a href="#home" class="text-white">Home</a> | 
+            <a href="#about" class="text-white">About</a> | 
+            <a href="#contact" class="text-white">Contact</a>
+        </p>
+    </footer>
+
+    <!-- Link to Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Link to custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
